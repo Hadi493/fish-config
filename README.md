@@ -1,32 +1,23 @@
 # My Fish Shell Configuration
 
-My personal Fish shell setup with an intelligent two-line prompt, git integration, and productivity enhancements.
+My personal Fish shell setup with intelligent two-line prompt and productivity enhancements.
 
-![Fish Shell Prompt](cg-fish.png)
+![Fish Shell Prompt](fish-config.png)
 
 ## Features
 
-### Intelligent Prompt
-- **Two-line design** prevents long paths from pushing cursor off-screen
-- **Git integration** with branch names and dirty status indicators
-- **Command timing** shows execution time for commands over 2 seconds
-- **Virtual environment** detection and display
-- **Exit status** indicators for failed commands
-- **Unicode styling** with clean box-drawing characters
-
-### Enhanced Terminal Experience
-- **Syntax highlighting** with custom color scheme
-- **Smart autocompletion** with case-insensitive matching
-- **History search** with arrow keys
-- **Advanced keybindings** for productivity
-- **Custom functions** for common tasks
-
-### Productivity Features
-- **Smart cd** that lists directory contents automatically
-- **Enhanced ls, grep, tree** with colors
-- **Archive extraction** function for multiple formats
-- **Process search** and file finder utilities
-- **Weather information** integration
+- Two-line prompt design prevents long paths from pushing cursor off-screen
+- Git integration with branch names and status indicators
+- Command execution timing for commands over 2 seconds
+- Virtual environment detection and display
+- Exit status indicators for failed commands
+- Unicode styling with clean box-drawing characters
+- Custom syntax highlighting and color scheme
+- Smart autocompletion with case-insensitive matching
+- Enhanced keybindings for productivity
+- Smart cd function that lists directory contents
+- Archive extraction for multiple formats
+- Process search and file finder utilities
 
 ## Installation
 
@@ -42,74 +33,21 @@ cd fish-config
 ./install.sh
 ```
 
-### Selective Install
-Copy only the files you need:
-```bash
-# Just the config
-cp config.fish ~/.config/fish/
-
-# Include functions and completions
-cp -r conf.d ~/.config/fish/
-cp fish_variables ~/.config/fish/
-```
-
-## Configuration Files
-
-- `config.fish` - Main configuration with prompt and settings
-- `conf.d/` - Additional configuration modules
-- `fish_variables` - Universal variables and settings
-- `install.sh` - Automated installation script
-
-## Customization
-
-### Colors
-Edit the color variables in `config.fish`:
-```fish
-set -g fish_color_command 00ff87
-set -g fish_color_quote 999900
-```
-
-### Prompt Elements
-Modify the `fish_prompt` function to customize:
-- User and hostname display
-- Path formatting
-- Git integration level
-- Timing thresholds
-
-### Aliases and Functions
-Add your own aliases in the designated section:
-```fish
-# Custom aliases
-alias myalias="command here"
-```
-
 ## Dependencies
 
 ### Required
 - Fish shell 3.0+
-- Git (for git integration)
-- A Nerd Font (recommended: Iosevka)
+- Git
+- Nerd Font (recommended: Iosevka)
 
 ### Optional
-- `tree` - Enhanced directory listing
-- `bat` - Better cat with syntax highlighting
-- `curl` - Weather function
-
-## Philosophy
-
-This configuration prioritizes:
-- **Information density** without clutter
-- **Visual hierarchy** for easy scanning
-- **Functional beauty** over minimalism
-- **Productivity** through intelligent automation
-
-## Contributing
-
-Issues and pull requests welcome. Please maintain the existing code style and philosophy.
+- tree - Enhanced directory listing
+- bat - Better cat with syntax highlighting
+- curl - Weather function
 
 ## License
 
-MIT License - See LICENSE file for details.
+MIT License
 
 ### Requarements
 - Any Linux distro (I personally use CachyOS)
