@@ -1,0 +1,14 @@
+# Fish shell generated files
+fish_read_history
+fishd.*
+
+# Temporary files
+*.tmp
+*~
+*.swp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
