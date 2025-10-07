@@ -1,6 +1,12 @@
 # My Fish Shell Configuration
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Fish Shell](https://img.shields.io/badge/Fish-Shell-blue.svg)](https://fishshell.com/)
+[![Dotfiles](https://img.shields.io/badge/Dotfiles-Personal-green.svg)](https://github.com/Hadi493/fish-config)
+
 My personal Fish shell setup with intelligent two-line prompt and productivity enhancements.
+
+**Topics**: `fish-shell` `dotfiles` `terminal` `prompt` `productivity` `shell-config` `unix` `linux` `zsh-alternative` `command-line` `git-integration` `customization` `rice` `minimalist` `developer-tools`
 
 ![Fish Shell Prompt](fish-config.png)
 
@@ -47,7 +53,9 @@ cd fish-config
 
 ## License
 
-MIT License
+MIT License - see [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2025 Hadi493
 
 ### Requarements
 - Any Linux distro (I personally use CachyOS)
